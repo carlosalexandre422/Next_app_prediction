@@ -32,7 +32,7 @@ export default async function Page({ params }: Params) {
     <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-3 p-4">
       <div className="p-8">
         <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-          Personal Info:
+          Personal Information:
         </div>
         <div className="block mt-1 text-lg leading-tight font-medium text-black">
           Age: {age?.age}
